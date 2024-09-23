@@ -21,7 +21,7 @@ spec:
       - name: pipeline-docker-registry
       containers:
       - name: goapi
-        image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
+        image: example-helloserver
         ports:
         - containerPort: 80
 
