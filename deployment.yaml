@@ -21,7 +21,7 @@ spec:
       - name: pipeline-docker-registry
       containers:
       - name: goapi
-        image: example-helloserver
+        image: evandroaribel/example-helloserver
         ports:
         - containerPort: 80
 
