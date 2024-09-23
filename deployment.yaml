@@ -42,7 +42,7 @@ spec:
 
 
 ---
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 kind: Ingress
 metadata:
   #namespace: go
@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: go.rancher.dev-ops-ninja.com
+  - host: go.rancher.learn.com
     http:
       paths:
         - path: /
